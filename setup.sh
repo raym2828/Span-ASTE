@@ -2,7 +2,7 @@
 set -e
 
 # Main Requirements
-pip install -r requirements.txt
+pip install -r requirement_ray.txt
 pip uninstall dataclasses -y # Compatibility issue with Python > 3.6
 
 # Optional: Set up NLTK packages
